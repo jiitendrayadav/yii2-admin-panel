@@ -12,6 +12,7 @@ use app\assets\AppAsset;
 use yii\helpers\Url;
 
 AppAsset::register($this);
+$settings = Yii::$app->settings;
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
